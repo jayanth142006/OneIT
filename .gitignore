@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# --- Dependencies ---
+docs/
+# --- Frontend (React/Vite/Node) ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Cache ---
+*.cache
+*.pytest_cache/
+*.mypy_cache/
+
+merged_text_output_placement.txt
